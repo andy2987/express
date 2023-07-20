@@ -10,7 +10,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Successful response.');
+  res.send('Server Working Fine.');
 });
 
 
